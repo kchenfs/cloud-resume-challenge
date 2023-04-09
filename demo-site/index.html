@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>	
+  <meta charset="UTF-8">
+  <title>Ken Chen - Resume</title>
+  <link rel="shortcut icon" type="image/png" href="https://kchenfsresumechallenge.s3.amazonaws.com/Ken.png" />
+  <meta name="viewport" content="width=device-width"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<div class="resume-wrapper">
+	<section class="profile section-padding">
+		<div class="container">
+			<div class="picture-resume-wrapper">
+        <div class="picture-resume">
+        <span><img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="" /></span>
+		<img src="https://kchenfsresumechallenge.s3.amazonaws.com/kchen.jpeg" alt="Ken Chen" style="margin-top: 50px; position: relative; z-index: 1;">
+        <svg version="1.1" viewBox="0 0 350 350">
+  
+  <defs>
+    <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -9" result="cm" />
+    </filter>
+  </defs>
+  
+  
+<g filter="url(#goo)" >  
+  
+  <circle id="main_circle" class="st0" cx="171.5" cy="175.6" r="130"/>
+  
+  <circle id="circle" class="bubble0 st1" cx="171.5" cy="175.6" r="122.7"/>
+  <circle id="circle" class="bubble1 st1" cx="171.5" cy="175.6" r="122.7"/>
+  <circle id="circle" class="bubble2 st1" cx="171.5" cy="175.6" r="122.7"/>
+  <circle id="circle" class="bubble3 st1" cx="171.5" cy="175.6" r="122.7"/>
+  <circle id="circle" class="bubble4 st1" cx="171.5" cy="175.6" r="122.7"/>
+  <circle id="circle" class="bubble5 st1" cx="171.5" cy="175.6" r="122.7"/>
+  <circle id="circle" class="bubble6 st1" cx="171.5" cy="175.6" r="122.7"/>
+  <circle id="circle" class="bubble7 st1" cx="171.5" cy="175.6" r="122.7"/>
+  <circle id="circle" class="bubble8 st1" cx="171.5" cy="175.6" r="122.7"/>
+  <circle id="circle" class="bubble9 st1" cx="171.5" cy="175.6" r="122.7"/>
+  <circle id="circle" class="bubble10 st1" cx="171.5" cy="175.6" r="122.7"/>
+
+</g>  
+</svg>
+      </div>
+         <div class="clearfix"></div>
+ </div>
+      <div class="name-wrapper">
+        <h1>Ken <br/>Chen</h1><!-- YOUR NAME AND LAST NAME  -->
+      </div>
+      <div class="clearfix"></div>
+      <div class="contact-info clearfix">
+      	<ul class="list-titles">
+			<li style="display:none;">Call</li>
+			<li>LinkedIn:</li>
+      		<li>GitHub:</li>
+      		<li>Email:</li>
+			  <li>
+				<div id="visitors" class="visitors">
+				  You are unique visitor: <span id="visits"></span><span id="loader" class="loader"></span>
+				</div>
+			  </li>
+			  
+      	</ul>
+        <ul class="list-content ">
+			<li style="display:none;">+34 123 456 789</li>
+        	<li><span><a href="https://www.linkedin.com/in/kchenfs/">https://www.linkedin.com/in/kchenfs/</a></span></li>
+			<li><span><a href="https://github.com/kchenfs/">https://github.com/kchenfs/</a></span></li>
+			<li><a href="mailto:kendxd@gmail.com">kendxd@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="contact-presentation"> <!-- YOUR PRESENTATION RESUME  -->
+		<p>This is a condensed resume website built using various <span style="font-weight:bold">AWS</span> services. I wrote my resume in <span style="font-weight:bold">HTML</span> and styled it with <span style="font-weight:bold">CSS</span>. Then, I deployed my resume as an <span style="font-weight:bold">S3</span> static website and enabled <span style="font-weight:bold">HTTPS</span> using <span style="font-weight:bold">CloudFront</span> for security. I used <span style="font-weight:bold">Route 53</span> as my DNS provider to point a custom domain name to the CloudFront distribution. Additionally, I included a visitor counter on my website using <span style="font-weight:bold">JavaScript</span> and stored and updated the visitor count in <span style="font-weight:bold">DynamoDB</span>. I created an <span style="font-weight:bold">API</span> using <span style="font-weight:bold">AWS API Gateway</span> and <span style="font-weight:bold">Lambda</span> to interact with DynamoDB. For writing the Lambda function, I used <span style="font-weight:bold">Python</span> and the <span style="font-weight:bold">boto3</span> library for AWS. I also included tests for my Python code. I defined my API resources in an <span style="font-weight:bold">AWS Serverless Application Model (SAM)</span> template and deployed the SAM application using the <span style="font-weight:bold">AWS SAM CLI</span> for infrastructure as code. Finally, I set up separate <span style="font-weight:bold">GitHub</span> repositories for my backend and website code, and used GitHub Actions for continuous integration and deployment of both the backend and frontend code.</p>      </div>
+      <div class="contact-social clearfix">
+      	<ul class="list-titles">
+			<li style="display:none;">Twitter</li>
+			<li style="display:none;">Dribbble</li>
+			<li style="display:none;">Codepen</li>			
+      	</ul>
+        <ul class="list-content"> <!-- REMEMBER TO PUT THE URL ON THE HREF TAG  -->
+			<li style="display:none;"><a href="">@janderson</a></li>
+			<li style="display:none;"><a href="">janderson</a></li>
+			<li style="display:none;"><a href="">janderson</a></li>
+			
+      	</ul>
+      </div>
+		</div>
+	</section>
+  
+  <section class="experience section-padding">
+  	<div class="container">
+  		<h3 class="experience-title">Experience</h3>
+      
+      <div class="experience-wrapper">
+      	<div class="company-wrapper clearfix">
+			<div class="experience-title"><a href="https://www.computer-talk.com/about-us/company-overview"><u>ComputerTalk</u></a></div>
+			<div class="time">February 2023 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+      	</div>
+        
+        <div class="job-wrapper clearfix">
+        	<div class="experience-title">Technical Support Analyst </div> <!-- JOB TITLE  -->
+          <div class="company-description">
+			<p style="visibility: hidden;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>
+		</div>
+        </div>
+        
+        <div class="company-wrapper clearfix">
+      		<div class="experience-title"><a href="https://www.questrade.com/about-us/who-we-are"><u>Questrade Financial Group</u></a></div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+          <div class="time">November 2021 - February 2023</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+      	</div>
+        
+         <div class="job-wrapper clearfix">
+        	<div class="experience-title">Platinum Client Service Specialist</div> <!-- JOB TITLE  -->
+          <div class="company-description">
+			<p style="visibility: hidden;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>
+		</div>
+        </div>
+        
+        
+      </div><!--Skill experience-->
+      
+      <div class="section-wrapper clearfix">
+      	<h3 class="section-title">Skills</h3>  <!-- YOUR SET OF SKILLS  -->
+        	<ul>
+        		<li class="skill-percentage">Python/SQL/YAML/JSON/HTML/CSS/JavaScript</li>
+        		<li class="skill-percentage">Salesforce CRM/Dynamics365 Ticketing System</li>
+        		<li class="skill-percentage">Bash/PowerShell</li>
+        		<li class="skill-percentage">Window Server Administration</li>
+        		<li class="skill-percentage">AWS/Azure</li>
+        		<li class="skill-percentage">IaC/SAM/Cloudformation</li>
+            
+        	</ul>
+        
+      </div>
+      
+      <div class="section-wrapper clearfix">
+        <h3 class="section-title">Certifications</h3>  <!-- DESCRIPTION OF YOUR HOBBIES -->
+		<img src="https://kchenfsresumechallenge.s3.amazonaws.com/cc.png" alt="AWS Certified Cloud Practitioner" style="width: 20%; height: 20;" />
+		<img src="https://kchenfsresumechallenge.s3.amazonaws.com/solutionsarchitectbadge.png" class="aws-badge" alt="AWS Certified Cloud Practitioner" style="width: 20%; height: 20%;" />
+		<img src="https://kchenfsresumechallenge.s3.amazonaws.com/sysopbadge.png" class="aws-badge" alt="AWS Certified Cloud Practitioner" style="width: 20%; height: 20;">
+		<img src="https://kchenfsresumechallenge.s3.amazonaws.com/developerbadge.png" class="aws-badge" alt="AWS Certified Cloud Practitioner" style="width: 20%; height: 20;" />
+      
+  	</div>
+  </section>
+  
+  <div class="clearfix"></div>
+</div>
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
